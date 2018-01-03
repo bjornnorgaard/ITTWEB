@@ -27,3 +27,11 @@ En ASP.NET Core app er en konsol app der laver en webserver i main metoden.
 
 \paragraph{Startup.cs}
 Her konfigureres dependency injection, middleware og services til forretningslogik.
+
+\subsection{Entity Framework}
+EF er en ORM, som gør det muligt at oprette en database på baggrund af C\# klasser.
+
+\paragraph{DbContext}
+Repræsenterer \textit{unit of work} og \textit{repository pattern}, sådan at den kan bruges til at kalde databasen.
+
+\paragraph{Migration} Beskriver en ændring af modellen og hvordan den skal opdatere databasen.
