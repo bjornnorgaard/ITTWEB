@@ -9,13 +9,17 @@ Der er udviklet et CLI, som kan bruges i stedet for Visual Studio, f.eks. til op
 I modsætning til ASP.NET er Core frameworket lightweight og leverer bedre perfomrance.
 
 \subsection{MVC}
-Er et arkitekturelt pattern som opdeler en applikation i 3 forbundne dele.
+Er \textit{Convention over configuration}. Er et arkitekturelt pattern som opdeler en applikation i tre forbundne dele.
 
 \paragraph{Model} Repræsenterer domænet og bruges ved hjælp af EF til at persistere data.
 
 \paragraph{View} Vises til brugeren. Laves med Razor views, hvor der kan laves for-løkke m.m.
 
 \paragraph{Controller} Eksekvere forretningslogikken og sørger for at opdatere view på baggrund af ændringer i modellen og vice versa.
+
+\begin{itemize}
+	\item Typisk \url{Controller/Action/Id}
+\end{itemize}
 
 \subsection{Anatomy}
 Frameworket er cloud-ready med inbygget environment based configurationer. Der er også indbygget dependency injection.
