@@ -2,3 +2,40 @@
 
 \paragraph{Spørgsmål}
 Redegøre for principperne og vigtigste karakteristika for webudvikling med brug af et server-side MVC framework med udgangspunkt i ASP.NET Core. Samt vis hvordan man kan designe og implementere en	webløsning, som omfatter persistering af data i en relationel database med anvendelse af Entity Framworket.
+
+\subsection{Frameworket}
+ASP.NET Core er en ny generation af ASP.NET, udviklet af Microsoft. Frameworket er open-source og cross-platform.
+Der er udviklet et CLI, som kan bruges i stedet for Visual Studio, f.eks. til oprettelse af projekter, database scaffolding, byg osv.
+I modsætning til ASP.NET er Core frameworket lightweight og leverer bedre perforrmance end det almindelige ASP.
+
+\subsection{Anatomy}
+Frameworket er cloud-ready med inbygget environment based configurationer. Der er også indbygget dependency injection.
+
+ASP.NET Core apps består som minimum af to klasser:
+
+\paragraph{Program.cs}
+En ASP.NET Core app er en konsol app der laver en webserver i main metoden.
+
+\paragraph{Startup.cs}
+Her konfigureres dependency-injection, middleware og services til forretningslogik.
+
+\subsection{MVC}
+Er \textit{convention over configuration}. Er et arkitekturelt pattern som opdeler en applikation i tre forbundne dele.
+
+\paragraph{Model} Repræsenterer domænet og bruges ved hjælp af EF til at persistere data.
+
+\paragraph{View} Vises til brugeren. Laves med Razor views, hvor der kan laves for-løkke m.m.
+
+\paragraph{Controller} Eksekvere forretningslogikken og sørger for at opdatere view på baggrund af ændringer i modellen og vice versa.
+
+\begin{itemize}
+	\item Typisk \textit{Controller/Action/Id}
+\end{itemize}
+
+\subsection{Entity Framework}
+EF er en ORM, som gør det muligt at oprette en database på baggrund af C\# klasser.
+
+\paragraph{DbContext}
+Repræsenterer \textit{unit of work} og \textit{repository pattern}, sådan at den kan bruges til at kalde databasen.
+
+\paragraph{Migration} Beskriver en ændring af modellen og hvordan den skal opdatere databasen.
