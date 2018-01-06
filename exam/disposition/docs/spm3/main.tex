@@ -43,7 +43,7 @@ Bruges til at automatisere opgaver som: minifikation, kompilering, linting og tr
 Gulp bruger \textit{streams}, som er et set af funktioner som en fil går igennem. Derved bliver filen ændret \textit{in-memory} og kun skrives til disk til slut. Grunt opgaver kan ikke blive \textit{chained}.
 
 \subsection{Progressive Web Apps}
-Bruger \textit{Service Workers} og kendetegnes ved en række features, som udover at være responsive er:
+Bruger \textit{Service Workers} og testes med Lighthouse. Kendetegnes ved en række features, som udover at være responsive er:
 
 \begin{multicols}{2}
 \begin{itemize}
@@ -64,12 +64,37 @@ Figur~\ref{fig:app-shell} forskellen på \textit{indhold} og \textit{app shell}.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{figs/spm3/app-shell}
+	\includegraphics[width=0.8\linewidth]{figs/spm3/app-shell}
 	\caption{App shell og indhold.}
 	\label{fig:app-shell}
 \end{figure}
 
 \subsection{WebSockets og SignalR}
-Bruges til 2-vejs kommunikation.
+Bruges til 2-vejs kommunikation for at undgå polling fra klienten. Herved kan server-side events bruges.
 
 \subsubsection{WebSockets}
+WebSockets er en protocol som muliggør full-duplex kommunikation over en enkelt TCP forbindelse og kan bruges af enhver klient- eller serverapplikation.
+
+\begin{itemize}
+	\item Bruger eksisterende HTTP forbindelse, skal altså ikke oprette en ny ved hvert request. 
+	\item Understøttet af alle browsere, undtagen Opera Mini og IE $<$ 10.
+	\item Kan sende stream med TCP protokollen.
+\end{itemize}
+
+\subsubsection{SignalR}
+SignalR er en wrapper til WebSockets i .NET frameworket.
+
+\begin{itemize}
+	\item Tillader 2-vejs kommunikation mellem server og klient.
+	\item Muliggør server-to-client push (RPC).
+	\item Understøtter WebSockets, men har ''fall-back'' til andre teknikker for ældre browsere.
+\end{itemize}
+
+\paragraph{Fall-backs} Hvis browseren ikke understøtter HTML5 bruges andre metoder: 
+
+\begin{enumerate}
+	\item WebSockets
+	\item Server Sent Events (ikke i IE)
+	\item Forever Frame (kun i IE)
+	\item AJAX long polling
+\end{enumerate}
