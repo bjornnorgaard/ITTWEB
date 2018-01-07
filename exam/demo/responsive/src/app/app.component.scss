@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  background-color: whitesmoke;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+  padding-top: 0.2em;
+  border: 2px solid;
+  margin-bottom: 1.5em;
+
+  li {
+    margin-top: 1em;
+    display: inline;
+    margin-right: 1em;
+  }
+
+  li:hover {
+    background-color: blue;
+    transition: 0.4s;
+  }
+
+  li:nth-child(2) {
+    margin-left: 2em;
+  }
+
+}
