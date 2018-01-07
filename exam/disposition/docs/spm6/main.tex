@@ -30,7 +30,6 @@ Her kan \textit{Basic Autentifikation} bruges, men HTTPS bliver meget vigtigere.
 Standard for Bearer tokens.
 
 \begin{multicols}{2}
-
 	\paragraph{Fordele}
 
 	\begin{itemize}
@@ -45,11 +44,21 @@ Standard for Bearer tokens.
 		\item Kan ikke invalideres
 		\item Token kan interceptes
 	\end{itemize}
-
 \end{multicols}
 
+\subsubsection{Cross-Origin Ressource Sharing}
+Med CORS er det muligt at tillade andre servere at kald ens egen og på samme tid afvise andre. En ressource er på ''same origin'' hvis den har samme: scheme, host og port. Figur~\ref{fig:cors-same-origin} viser forskellene.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{figs/spm6/cors-same-origin}
+	\caption{Same origin defineret.}
+	\label{fig:cors-same-origin}
+\end{figure}
+
+
 \subsection{OWASP}
-Mest gængse sikkerhedsfejl.
+Mest gængse sikkerhedsfejl fra OWASP 2013.
 
 \begin{multicols}{2}
 	\begin{itemize}
