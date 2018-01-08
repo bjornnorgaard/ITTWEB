@@ -1,0 +1,79 @@
+$breakpoint-small: 768px;
+$breakpoint-medium: 992px;
+$breakpoint-large: 1200px;
+
+.content {
+  display: grid;
+  grid-template-areas: "header" "sidebar" "body" "ads" "image" "footer";
+
+  // @media (min-width: $breakpoint-small) {
+  //   grid-template-areas:
+  //     "header header header header"
+  //     "sidebar sidebar body body"
+  //     "ads ads image image"
+  //     "footer footer footer footer";
+  // }
+
+  // @media (min-width: $breakpoint-medium) {
+  //   grid-template-areas:
+  //     "header header header sidebar"
+  //     "body body ads image"
+  //     "footer footer footer footer";
+  // }
+
+  // @media (min-width: $breakpoint-large) {
+  //   grid-template-areas:
+  //     "header header header header"
+  //     "sidebar body ads image"
+  //     "footer footer footer footer";
+  // }
+
+  @media (min-width: $breakpoint-small) {
+   grid-template-areas:
+     "sidebar header header"
+     "sidebar ads body"
+     "sidebar footer body"
+     "image image body";
+  }
+
+  @media (min-width: $breakpoint-medium) {
+   grid-template-areas:
+     "header header image"
+     "body body ads"
+     "sidebar footer ads";
+  }
+
+  @media (min-width: $breakpoint-large) {
+   grid-template-areas:
+     ". header header header"
+     "sidebar . . ."
+     ". body . ."
+     ". . ads ."
+     ". . . image"
+     "footer footer footer .";
+  }
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.body {
+  grid-area: body;
+}
+
+.ads {
+  grid-area: ads;
+}
+
+.image {
+  grid-area: image;
+}
+
+.footer {
+  grid-area: footer;
+}
