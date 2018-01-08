@@ -9,9 +9,7 @@ Der er udviklet et CLI, som kan bruges i stedet for Visual Studio, f.eks. til op
 I modsætning til ASP.NET er Core frameworket lightweight og leverer bedre perforrmance end det almindelige ASP.
 
 \subsection{Anatomy}
-Frameworket er cloud-ready med inbygget environment based configurationer. Der er også indbygget dependency injection.
-
-ASP.NET Core apps består som minimum af to klasser:
+Frameworket kommer indbygget med environment-based konfigurationer. Der er også indbygget dependency injection. ASP.NET Core apps består som minimum af to klasser:
 
 \paragraph{Program.cs}
 En ASP.NET Core app er en konsol app der laver en webserver i main metoden.
@@ -29,7 +27,7 @@ Er \textit{convention over configuration}. Er et arkitekturelt pattern som opdel
 \paragraph{Controller} Eksekvere forretningslogikken og sørger for at opdatere view på baggrund af ændringer i modellen og vice versa.
 
 \begin{itemize}
-	\item Typisk \textit{Controller/Action/Id}
+	\item Routing scheme: \textit{Controller/Action/Id}
 \end{itemize}
 
 \subsection{Entity Framework}
