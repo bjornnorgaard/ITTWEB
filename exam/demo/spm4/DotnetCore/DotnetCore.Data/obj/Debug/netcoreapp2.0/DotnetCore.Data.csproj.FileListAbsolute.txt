@@ -1,0 +1,9 @@
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\bin\Debug\netcoreapp2.0\DotnetCore.Data.deps.json
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\bin\Debug\netcoreapp2.0\DotnetCore.Data.dll
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\bin\Debug\netcoreapp2.0\DotnetCore.Data.pdb
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\obj\Debug\netcoreapp2.0\DotnetCore.Data.csprojResolveAssemblyReference.cache
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\obj\Debug\netcoreapp2.0\DotnetCore.Data.csproj.CoreCompileInputs.cache
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\obj\Debug\netcoreapp2.0\DotnetCore.Data.AssemblyInfoInputs.cache
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\obj\Debug\netcoreapp2.0\DotnetCore.Data.AssemblyInfo.cs
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\obj\Debug\netcoreapp2.0\DotnetCore.Data.dll
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Data\obj\Debug\netcoreapp2.0\DotnetCore.Data.pdb

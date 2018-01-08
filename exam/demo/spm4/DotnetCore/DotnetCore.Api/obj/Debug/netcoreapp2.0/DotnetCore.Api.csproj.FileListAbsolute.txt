@@ -1,0 +1,13 @@
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\bin\Debug\netcoreapp2.0\DotnetCore.Api.deps.json
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\bin\Debug\netcoreapp2.0\DotnetCore.Api.runtimeconfig.json
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\bin\Debug\netcoreapp2.0\DotnetCore.Api.runtimeconfig.dev.json
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\bin\Debug\netcoreapp2.0\DotnetCore.Api.dll
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\bin\Debug\netcoreapp2.0\DotnetCore.Api.pdb
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\bin\Debug\netcoreapp2.0\DotnetCore.Data.dll
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\bin\Debug\netcoreapp2.0\DotnetCore.Data.pdb
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\obj\Debug\netcoreapp2.0\DotnetCore.Api.csprojResolveAssemblyReference.cache
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\obj\Debug\netcoreapp2.0\DotnetCore.Api.csproj.CoreCompileInputs.cache
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\obj\Debug\netcoreapp2.0\DotnetCore.Api.AssemblyInfoInputs.cache
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\obj\Debug\netcoreapp2.0\DotnetCore.Api.AssemblyInfo.cs
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\obj\Debug\netcoreapp2.0\DotnetCore.Api.dll
+C:\Users\Norgaard\Documents\Git\ITTWEB\exam\demo\spm4\DotnetCore\DotnetCore.Api\obj\Debug\netcoreapp2.0\DotnetCore.Api.pdb
