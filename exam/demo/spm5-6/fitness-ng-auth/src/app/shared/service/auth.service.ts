@@ -83,7 +83,6 @@ export class AuthService {
     if (this.isLoggedIn()) {
       const token = this.getToken();
       const payload = JSON.parse(window.atob(token.split('.')[1]));
-      console.log('currentuser: ' + payload.username + '' + payload.name);
       return new User(payload.username, payload.name);
     } else {
       return;
